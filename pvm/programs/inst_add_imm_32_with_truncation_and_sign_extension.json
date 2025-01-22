@@ -1,5 +1,5 @@
 {
-  "name": "inst_div_signed_32_by_zero",
+  "name": "inst_add_imm_32_with_truncation_and_sign_extension",
   "initial-regs": [
     0,
     0,
@@ -8,7 +8,7 @@
     0,
     0,
     0,
-    2147483664,
+    3689348814455579170,
     0,
     0,
     0,
@@ -22,10 +22,13 @@
   "program": [
     0,
     0,
-    3,
-    194,
-    135,
-    9,
+    6,
+    131,
+    121,
+    102,
+    102,
+    102,
+    102,
     1
   ],
   "expected-status": "trap",
@@ -37,14 +40,14 @@
     0,
     0,
     0,
-    2147483664,
+    3689348814455579170,
     0,
-    18446744073709551615,
+    18446744071705233544,
     0,
     0,
     0
   ],
-  "expected-pc": 3,
+  "expected-pc": 6,
   "expected-memory": [],
   "expected-gas": 9998
 }
